@@ -1,0 +1,615 @@
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.card {
+  padding: 2em;
+}
+
+.big-square {
+  width: 700px;
+  height: 600px;
+  background-color: white;
+  margin: 0 auto 2rem auto;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.small-squares-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.small-square {
+  width: 335px;
+  height: 285px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-image {
+  max-width: 40%;
+  max-height: 40%;
+  object-fit: contain;
+  margin-bottom: 3rem;
+}
+
+.square-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 1rem;
+  color: #ff0000;
+  position: absolute;
+  bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+.bluish-square {
+  background-color: #ffffff;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  20%, 80% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+.carousel-image {
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: contain;
+  margin-top: -2.5rem;
+  animation: fadeInOut 3s ease-in-out;
+}
+
+.catalog-text {
+  font-size: 1.2rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.om-oss-text {
+  font-size: 1.2rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.brands-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 100%;
+  justify-content: flex-start;
+  padding-top: 3rem;
+}
+
+.brands-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.brand-image {
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.brand-image:hover {
+  transform: scale(1.1);
+}
+.brands-title {
+  color: #ff0000;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.8rem;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* For 12-inch screens (approximately 1024px width) */
+@media screen and (max-width: 1024px) {
+  .big-square {
+    width: 600px;
+    height: 500px;
+  }
+  .brand-image {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .small-square {
+    width: 285px;
+    height: 245px;
+  }
+  .brands-title {
+    font-size: 1.6rem;
+  }
+  .catalog-text, .om-oss-text {
+    font-size: 1rem;
+  }
+}
+
+/* For 10-inch screens (approximately 860px width) */
+@media screen and (max-width: 860px) {
+  .big-square {
+    width: 500px;
+    height: 500px;
+  }
+  .brand-image {
+    max-width: 120px;
+    max-height: 120px;
+  }
+  .small-square {
+    width: 235px;
+    height: 205px;
+  }
+  .brands-title {
+    font-size: 1.4rem;
+  }
+  .catalog-text, .om-oss-text {
+    font-size: 0.8rem;
+  }
+  .square-image {
+    max-width: 35%;
+    max-height: 35%;
+  }
+  .carousel-image {
+    max-width: 45%;
+    max-height: 45%;
+  }
+}
+
+/* For 7-inch screens (approximately 600px width) */
+@media screen and (max-width: 600px) {
+  #root {
+    padding: 0.5rem;
+  }
+
+  .big-square {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    min-height: 350px;
+    margin: 1rem auto;
+  }
+
+  .brands-container {
+    padding: 1rem;
+  }
+
+  .small-squares-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .small-square {
+    width: 100%;
+    max-width: 400px;
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  .brand-image {
+    max-width: 90px;
+    max-height: 90px;
+  }
+  .brands-title {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+  .catalog-text, .om-oss-text {
+    font-size: 1rem;
+  }
+  .square-image {
+    max-width: 30%;
+    max-height: 30%;
+    margin-bottom: 2rem;
+  }
+  .carousel-image {
+    max-width: 40%;
+    max-height: 40%;
+    margin-top: -1.5rem;
+  }
+  .brands-container {
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+  .text-container {
+    bottom: 1rem;
+  }
+}
+
+/* For 6-inch screens (approximately 480px width) */
+@media screen and (max-width: 480px) {
+  .big-square {
+    max-width: 340px;
+  }
+
+  .small-square {
+    max-width: 340px;
+  }
+
+  .brands-container {
+    padding: 0.5rem;
+  }
+
+  .brand-image {
+    max-width: 75px;
+    max-height: 75px;
+  }
+  .small-square {
+    width: 340px;
+    height: 160px;
+  }
+  .brands-title {
+    font-size: 1.1rem;
+  }
+  .catalog-text, .om-oss-text {
+    font-size: 0.65rem;
+  }
+  .square-image {
+    max-width: 28%;
+    max-height: 28%;
+  }
+  .carousel-image {
+    max-width: 35%;
+    max-height: 35%;
+  }
+  .text-container {
+    bottom: 0.8rem;
+  }
+}
+
+/* For 5-inch screens (approximately 360px width) */
+@media screen and (max-width: 360px) {
+  .big-square {
+    max-width: 300px;
+  }
+
+  .small-square {
+    max-width: 300px;
+  }
+
+  .brand-image {
+    max-width: 65px;
+    max-height: 65px;
+  }
+  .small-square {
+    width: 300px;
+    height: 150px;
+  }
+  .brands-title {
+    font-size: 1rem;
+  }
+  .catalog-text, .om-oss-text {
+    font-size: 0.6rem;
+  }
+  .square-image {
+    max-width: 25%;
+    max-height: 25%;
+  }
+  .carousel-image {
+    max-width: 32%;
+    max-height: 32%;
+  }
+  .text-container {
+    bottom: 0.5rem;
+  }
+}
+
+.App {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 0 4rem 0;
+  box-sizing: border-box;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 90%;
+  width: 400px;
+  position: relative;
+}
+
+.overlay-message {
+  color: #333;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.close-button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: #cc0000;
+}
+
+.slogan-container {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  left: 0;
+  transform: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  overflow: hidden;
+  padding: 0;
+}
+
+.slogan-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  object-fit: cover;
+}
+
+/* For tablets and smaller screens */
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .slogan-container {
+    height: 60vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    transform: none;
+  }
+}
+
+/* For mobile phones */
+@media screen and (max-width: 480px) {
+  #root {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .slogan-container {
+    height: 40vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* For very small phones */
+@media screen and (max-width: 360px) {
+  #root {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .slogan-container {
+    height: 30vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.logo-image {
+  width: 150px;
+  height: auto;
+  margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-image {
+    width: 100px;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo-image {
+    width: 80px;
+    margin: 5px;
+  }
+}
+
+.expertise-section {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.expertise-title {
+  color: #ff0000;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  margin-bottom: 2rem;
+}
+
+.expertise-description {
+  color: #333;
+  font-size: 1.2rem;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+}
+
+.brand-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.brand-logo:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.brand-logo:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.brand-logo:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.brand-logo:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.brand-logo:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.brand-logo:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+@media screen and (max-width: 768px) {
+  .expertise-title {
+    font-size: 1.5rem;
+  }
+
+  .expertise-description {
+    max-width: 90%;
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .brand-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .brand-logos {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .expertise-title {
+    font-size: 1.2rem;
+  }
+
+  .expertise-description {
+    max-width: 95%;
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+
+  .brand-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .brand-logos {
+    gap: 1rem;
+  }
+}
+
