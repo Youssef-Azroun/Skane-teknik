@@ -589,6 +589,7 @@ const phoneRepairPrices = {
       ]
     }
   },
+  //Huawei Reparationspriser
   huawei: {
     p9Series: {
       title: "Huawei P-Series Reparationspriser",
@@ -856,6 +857,7 @@ const phoneRepairPrices = {
       ]
     }
   },
+  //Sony Reparationspriser
   sony: {
     xzSeries: {
       title: "Sony XZ-Series Reparationspriser",
@@ -976,6 +978,7 @@ const phoneRepairPrices = {
       ]
     }
   },
+  //Apple Reparationspriser
   apple: {
     iphone6Series: {
       title: "iPhone 6-Series Reparationspriser",
