@@ -1,4 +1,5 @@
 const phoneRepairPrices = {
+    //Samsung Reperation priser
   samsung: {
     aSeries: {
       title: "Samsung A-Series Reparationspriser",
