@@ -27,6 +27,7 @@ import op from './assets/images/op.png';
 import sa from './assets/images/sa.png';
 import so from './assets/images/so.png';
 import vi from './assets/images/vi.png';
+import Katalog from './pages/Katalog'
 
 function App() {
   const images = [phone1, phone2, protectop, watch, watch2]
@@ -60,6 +61,7 @@ function App() {
 
   return (
     <Routes>
+      <Route path="/katalog" element={<Katalog />} />
       <Route path="/" element={
         <div className="App">
           <div className="logo-container" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
@@ -132,7 +134,7 @@ function App() {
             </div>
           </div>
           <div className="small-squares-container">
-            <div className="small-square bluish-square">
+            <div className="small-square bluish-square" onClick={() => navigate('/katalog')} style={{ cursor: 'pointer' }}>
               <div className="square-content">
                 <img 
                   key={key}
