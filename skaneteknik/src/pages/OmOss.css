@@ -233,6 +233,23 @@
 }
 
 @media screen and (max-width: 768px) {
+  .om-oss-container {
+    justify-content: flex-start;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .om-oss-title {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .om-oss-description {
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-top: 1rem;
+  }
+
   .info-container {
     flex-direction: column;
     gap: 2rem;
@@ -344,7 +361,19 @@
 
 @media screen and (max-width: 360px) {
   .om-oss-container {
-    padding: 0.3rem;
+    justify-content: flex-start;
+    padding-top: 0;
+  }
+
+  .om-oss-title {
+    margin-top: 4rem;
+    font-size: 1.3rem;
+  }
+
+  .om-oss-description {
+    font-size: 0.85rem;
+    padding: 0 0.5rem;
+    margin-top: 0.5rem;
   }
 
   .info-container {
@@ -354,15 +383,6 @@
   .address-section, .hours-section, .contact-section {
     padding: 0.8rem;
     width: calc(100% - 0.6rem);
-  }
-
-  .om-oss-title {
-    font-size: 1.3rem;
-  }
-
-  .om-oss-description {
-    font-size: 0.85rem;
-    padding: 0 0.5rem;
   }
 
   .address-title, .opening-hours-title, .contact-title {
