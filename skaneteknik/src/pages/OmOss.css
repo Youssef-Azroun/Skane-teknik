@@ -144,8 +144,8 @@
 }
 
 .contact-icon {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   object-fit: contain;
   margin: auto 0;
   transition: transform 0.3s ease;
@@ -155,28 +155,13 @@
   transform: scale(1.1);
 }
 
-.contact-icon[alt="Instagram"] {
-  width: 50px;
-  height: 50px;
-  margin-left: -10px;
-}
-
-.contact-icon[alt="Facebook"] {
-  width: 40px;
-  height: 40px;
-  margin-left: -5px;
-}
-
-.contact-icon[alt="TikTok"] {
-  width: 40px;
-  height: 40px;
-  margin-left: -6px;
-}
-
+.contact-icon[alt="Instagram"],
+.contact-icon[alt="Facebook"],
+.contact-icon[alt="TikTok"],
 .contact-icon[alt="Snapchat"] {
-  width: 35px;
-  height: 35px;
-  margin-left: -2px;
+  width: 32px;
+  height: 32px;
+  margin-left: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -216,24 +201,12 @@
     height: 25px;
   }
 
-  .contact-icon[alt="Instagram"] {
-    width: 45px;
-    height: 45px;
-  }
-
-  .contact-icon[alt="Facebook"] {
-    width: 35px;
-    height: 35px;
-  }
-
-  .contact-icon[alt="TikTok"] {
-    width: 36px;
-    height: 36px;
-  }
-
+  .contact-icon[alt="Instagram"],
+  .contact-icon[alt="Facebook"],
+  .contact-icon[alt="TikTok"],
   .contact-icon[alt="Snapchat"] {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
 }
 
@@ -283,6 +256,15 @@
     width: 100%;
     text-align: center;
   }
+
+  .contact-icon,
+  .contact-icon[alt="Instagram"],
+  .contact-icon[alt="Facebook"],
+  .contact-icon[alt="TikTok"],
+  .contact-icon[alt="Snapchat"] {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -331,31 +313,13 @@
     font-size: 0.9rem;
   }
 
-  .contact-icon {
+  .contact-icon,
+  .contact-icon[alt="Instagram"],
+  .contact-icon[alt="Facebook"],
+  .contact-icon[alt="TikTok"],
+  .contact-icon[alt="Snapchat"] {
     width: 24px;
     height: 24px;
-  }
-
-  .contact-icon[alt="Instagram"] {
-    width: 40px;
-    height: 40px;
-    margin-left: -8px;
-  }
-
-  .contact-icon[alt="Facebook"] {
-    width: 32px;
-    height: 32px;
-    margin-left: -4px;
-  }
-
-  .contact-icon[alt="TikTok"] {
-    width: 35px;
-    height: 35px;
-  }
-
-  .contact-icon[alt="Snapchat"] {
-    width: 28px;
-    height: 28px;
   }
 }
 
@@ -398,14 +362,13 @@
     font-size: 0.85rem;
   }
 
-  .contact-icon[alt="TikTok"] {
-    width: 30px;
-    height: 30px;
-  }
-
+  .contact-icon,
+  .contact-icon[alt="Instagram"],
+  .contact-icon[alt="Facebook"],
+  .contact-icon[alt="TikTok"],
   .contact-icon[alt="Snapchat"] {
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
   }
 }
 
