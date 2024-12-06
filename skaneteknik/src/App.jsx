@@ -75,8 +75,9 @@ function App() {
               <h2 className="expertise-title">Expertis inom mobilreparation</h2>
               <p className="expertise-description">
                 Med över ett decennium av erfarenhet erbjuder vårt certifierade team professionell 
-                service för alla ledande smartphonemodeller. Vi använder endast originaldelar och 
-                moderna verktyg för att garantera högsta kvalitet på våra reparationer med full garanti.
+                service för alla ledande smartphonemodeller. Vi använder original och duplicat delar
+                samt moderna verktyg för att garantera högsta kvalitet på våra reparationer,
+                med 3 månaders garanti.
               </p>
               <div className="brand-logos">
                 <img src={ap} alt="Apple" className="brand-logo" />

@@ -71,7 +71,7 @@ function OmOss() {
               className="contact-item" 
               role="button" 
               tabIndex={0}
-              onClick={() => window.open('https://www.instagram.com/tekn1_k?igsh=MThoMnN5cmQ5aDczMw==', '_blank')}
+              onClick={() => window.open('https://www.instagram.com/skane_teknik?igsh=MThoMnN5cmQ5aDczMw==', '_blank')}
             >
               <img src={instagram} alt="Instagram" className="contact-icon" />
               <span>Instagram</span>
