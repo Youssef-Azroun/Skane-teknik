@@ -205,6 +205,8 @@ function App() {
       <Route path="/apple/iphone12-series" element={<SpecificPhoneInfo brand="apple" series="iphone12Series" />} />
       <Route path="/apple/iphone13-series" element={<SpecificPhoneInfo brand="apple" series="iphone13Series" />} />
       <Route path="/apple/iphone14-series" element={<SpecificPhoneInfo brand="apple" series="iphone14Series" />} />
+      <Route path="/apple/iphone15-series" element={<SpecificPhoneInfo brand="apple" series="iphone15Series" />} />
+      <Route path="/apple/iphone16-series" element={<SpecificPhoneInfo brand="apple" series="iphone16Series" />} />
     </Routes>
   )
 }

@@ -987,28 +987,28 @@ const phoneRepairPrices = {
           model: "iPhone 6",
           repairs: [
             { type: "Skärmbyte", price: 490 },
-            { type: "Batteribyte", price: 390 }
+            { type: "Batteribyte", price: 445 }
           ]
         },
         {
           model: "iPhone 6s",
           repairs: [
             { type: "Skärmbyte", price: 490 },
-            { type: "Batteribyte", price: 390 }
+            { type: "Batteribyte", price: 445 }
           ]
         },
         {
           model: "iPhone 6 Plus",
           repairs: [
             { type: "Skärmbyte", price: 490 },
-            { type: "Batteribyte", price: 390 }
+            { type: "Batteribyte", price: 445 }
           ]
         },
         {
           model: "iPhone 6s Plus",
           repairs: [
             { type: "Skärmbyte", price: 490 },
-            { type: "Batteribyte", price: 390 }
+            { type: "Batteribyte", price: 445 }
           ]
         }
       ],
@@ -1023,14 +1023,14 @@ const phoneRepairPrices = {
           model: "iPhone 7",
           repairs: [
             { type: "Skärmbyte", price: 490 },
-            { type: "Batteribyte", price: 390 }
+            { type: "Batteribyte", price: 445 }
           ]
         },
         {
           model: "iPhone 7 Plus",
           repairs: [
             { type: "Skärmbyte", price: 490 },
-            { type: "Batteribyte", price: 390 }
+            { type: "Batteribyte", price: 445 }
           ]
         }
       ],
@@ -1045,18 +1045,18 @@ const phoneRepairPrices = {
           model: "iPhone 8",
           repairs: [
             { type: "Skärmbyte", price: 490 },
-            { type: "Batteribyte", price: 390 },
-            { type: "Backsida byte utan ram", price: 590 },
-            { type: "Backsida kamera glas", price: 350 }
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 390 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 8 Plus",
           repairs: [
             { type: "Skärmbyte", price: 490 },
-            { type: "Batteribyte", price: 390 },
-            { type: "Backsida byte utan ram", price: 590 },
-            { type: "Backsida kamera glas", price: 350 }
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 390 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         }
       ],
@@ -1070,37 +1070,37 @@ const phoneRepairPrices = {
         {
           model: "iPhone X",
           repairs: [
-            { type: "Skärmbyte", price: 590 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 690 },
-            { type: "Backsida kamera glas", price: 350 }
+            { type: "Skärmbyte", price: 495 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 395 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone XS",
           repairs: [
-            { type: "Skärmbyte", price: 590 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 690 },
-            { type: "Backsida kamera glas", price: 350 }
+            { type: "Skärmbyte", price: 495 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 395 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone XS Max",
           repairs: [
-            { type: "Skärmbyte", price: 790 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 790 },
-            { type: "Backsida kamera glas", price: 350 }
+            { type: "Skärmbyte", price: 545 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 445 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone XR",
           repairs: [
-            { type: "Skärmbyte", price: 690 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 790 },
-            { type: "Backsida kamera glas", price: 350 }
+            { type: "Skärmbyte", price: 545 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 445 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         }
       ],
@@ -1114,28 +1114,29 @@ const phoneRepairPrices = {
         {
           model: "iPhone 11",
           repairs: [
-            { type: "Skärmbyte", price: 690 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 790 },
-            { type: "Backsida kamera glas", price: 350 }
+            { type: "Skärmbyte a kopia", price: 595 },
+            { type: "Skärmbyte oem original", price: 795 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 495 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 11 Pro",
           repairs: [
-            { type: "Skärmbyte", price: 790 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 890 },
-            { type: "Backsida kamera glas", price: 350 }
+            { type: "Skärmbyte", price: 595 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 495 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 11 Pro Max",
           repairs: [
-            { type: "Skärmbyte", price: 790 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 890 },
-            { type: "Backsida kamera glas", price: 350 }
+            { type: "Skärmbyte", price: 595 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 495 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         }
       ],
@@ -1149,37 +1150,37 @@ const phoneRepairPrices = {
         {
           model: "iPhone 12",
           repairs: [
-            { type: "Skärmbyte", price: 990 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1130 },
-            { type: "Backsida kamera glas", price: 400 }
+            { type: "Skärmbyte", price: 695 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 595 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 12 Pro",
           repairs: [
-            { type: "Skärmbyte", price: 990 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1130 },
-            { type: "Backsida kamera glas", price: 390 }
+            { type: "Skärmbyte", price: 695 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 595 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 12 Pro Max",
           repairs: [
-            { type: "Skärmbyte", price: 1290 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1290 },
-            { type: "Backsida kamera glas", price: 390 }
+            { type: "Skärmbyte", price: 695 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 595 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 12 Mini",
           repairs: [
-            { type: "Skärmbyte", price: 1290 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1290 },
-            { type: "Backsida kamera glas", price: 400 }
+            { type: "Skärmbyte", price: 745 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 645 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         }
       ],
@@ -1193,37 +1194,37 @@ const phoneRepairPrices = {
         {
           model: "iPhone 13",
           repairs: [
-            { type: "Skärmbyte", price: 1450 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1390 },
-            { type: "Backsida kamera glas", price: 400 }
+            { type: "Skärmbyte", price: 795 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 595 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 13 Pro",
           repairs: [
-            { type: "Skärmbyte", price: 1790 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1490 },
-            { type: "Backsida kamera glas", price: 400 }
+            { type: "Skärmbyte", price: 795 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 595 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 13 Pro Max",
           repairs: [
-            { type: "Skärmbyte", price: 2150 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1490 },
-            { type: "Backsida kamera glas", price: 390 }
+            { type: "Skärmbyte", price: 845 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 645 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 13 Mini",
           repairs: [
-            { type: "Skärmbyte", price: 1490 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1390 },
-            { type: "Backsida kamera glas", price: 390 }
+            { type: "Skärmbyte", price: 795 },
+            { type: "Batteribyte", price: 445 },
+            { type: "Backsida byte utan ram", price: 595 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         }
       ],
@@ -1237,37 +1238,107 @@ const phoneRepairPrices = {
         {
           model: "iPhone 14",
           repairs: [
-            { type: "Skärmbyte", price: 2190 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1390 },
-            { type: "Backsida kamera glas", price: 390 }
+            { type: "Skärmbyte", price: 795 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 645 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 14 Pro",
           repairs: [
-            { type: "Skärmbyte", price: 2490 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1790 },
-            { type: "Backsida kamera glas", price: 450 }
+            { type: "Skärmbyte", price: 895 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 745 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 14 Pro Max",
           repairs: [
-            { type: "Skärmbyte", price: 2990 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1990 },
-            { type: "Backsida kamera glas", price: 450 }
+            { type: "Skärmbyte", price: 995 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 845 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         },
         {
           model: "iPhone 14 plus",
           repairs: [
-            { type: "Skärmbyte", price: 2990 },
-            { type: "Batteribyte", price: 590 },
-            { type: "Backsida byte utan ram", price: 1990 },
-            { type: "Backsida kamera glas", price: 450 }
+            { type: "Skärmbyte", price: 795 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 645 },
+            { type: "Backsida kamera glas", price: 295 }
+          ]
+        }
+      ],
+      additionalServices: [
+        { service: "Felsökningsavgift", price: 250 }
+      ]
+    },
+    iphone15Series: {
+      title: "iPhone 15-Series Reparationspriser",
+      models: [
+        {
+          model: "iPhone 15",
+          repairs: [
+            { type: "Skärmbyte", price: 845 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 645 },
+            { type: "Backsida kamera glas", price: 295 }
+          ]
+        },
+        {
+          model: "iPhone 15 Plus",
+          repairs: [
+            { type: "Skärmbyte", price: 845 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 645 },
+            { type: "Backsida kamera glas", price: 295 }
+          ]
+        },
+        {
+          model: "iPhone 15 Pro",
+          repairs: [
+            { type: "Skärmbyte", price: 895 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 645 },
+            { type: "Backsida kamera glas", price: 295 }
+          ]
+        },
+        {
+          model: "iPhone 15 Pro Max",
+          repairs: [
+            { type: "Skärmbyte", price: 1195 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 645 },
+            { type: "Backsida kamera glas", price: 295 }
+          ]
+        }
+      ],
+      additionalServices: [
+        { service: "Felsökningsavgift", price: 250 }
+      ]
+    },
+    iphone16Series: {
+      title: "iPhone 16-Series Reparationspriser",
+      models: [
+        {
+          model: "iPhone 16",
+          repairs: [
+            { type: "Skärmbyte", price: 1345 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 695 },
+            { type: "Backsida kamera glas", price: 295 }
+          ]
+        },
+        {
+          model: "iPhone 16 Plus",
+          repairs: [
+            { type: "Skärmbyte", price: 1345 },
+            { type: "Batteribyte", price: 495 },
+            { type: "Backsida byte utan ram", price: 695 },
+            { type: "Backsida kamera glas", price: 295 }
           ]
         }
       ],

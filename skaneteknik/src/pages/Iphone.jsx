@@ -8,6 +8,8 @@ import iphone11 from '../assets/images/iphone11.jpg';
 import iphone12 from '../assets/images/iphone12.jpg';
 import iphone13 from '../assets/images/iphone13.jpg';
 import iphone14 from '../assets/images/iphone14.jpg';
+import iphone15 from '../assets/images/iphone15.jpg';
+import iphone16 from '../assets/images/iphone16.jpg';
 import logo3 from '../assets/images/logo3.png';
 import { useNavigate } from 'react-router-dom';
 
@@ -28,6 +30,8 @@ function Iphone() {
     { model: 'iPhone 12', image: iphone12 },
     { model: 'iPhone 13', image: iphone13 },
     { model: 'iPhone 14', image: iphone14 },
+    { model: 'iPhone 15', image: iphone15 },
+    { model: 'iPhone 16', image: iphone16 },
     { model: 'Andra modeller', image: null }
   ];
 
@@ -48,6 +52,10 @@ function Iphone() {
       navigate('/apple/iphone13-series');
     } else if (model === 'iPhone 14') {
       navigate('/apple/iphone14-series');
+    } else if (model === 'iPhone 15') {
+      navigate('/apple/iphone15-series');
+    } else if (model === 'iPhone 16') {
+      navigate('/apple/iphone16-series');
     } else if (model === 'Andra modeller') {
       setShowOverlay(true);
       return;
