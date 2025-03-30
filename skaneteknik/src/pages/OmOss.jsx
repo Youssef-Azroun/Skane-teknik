@@ -36,12 +36,21 @@ function OmOss() {
         Håll dig uppkopplad, håll dig mobil!
       </p>
       <div className="info-container">
-        <div className="address-section">
+        <div 
+          className="address-section"
+          onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Sk%C3%A5ne+Teknik+Helsingborg', '_blank')}
+          style={{ cursor: 'pointer' }}
+          role="button"
+          tabIndex={0}
+        >
           <div className="address-title-container">
             <img src={map} alt="Map icon" className="map-image" />
             <h2 className="address-title">Adress:</h2>
           </div>
-          <p className="address-text">Bruksgatan 36 a</p>
+          <div className="address-text-container">
+            <p className="address-text">Bruksgatan 36A</p>
+            <p className="address-text">252 24 Helsingborg</p>
+          </div>
         </div>
         <div className="hours-section">
           <h2 className="opening-hours-title">Våra Öppettider:</h2>
@@ -51,7 +60,7 @@ function OmOss() {
             <p>Onsdag: 10:00 - 18:00</p>
             <p>Torsdag: 10:00 - 18:00</p>
             <p>Fredag: 10:00 - 18:00</p>
-            <p>Lördag: 10:00 - 18:00</p>
+            <p>Lördag: 11:00 - 16:00</p>
             <p>Söndag: Stängt</p>
           </div>
         </div>
